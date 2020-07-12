@@ -1,0 +1,33 @@
+{
+  "name": "linkshorter",
+  "version": "1.0.0",
+  "description": "shorter po kursu",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORRA10/linkshorter.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "orra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ORRA10/linkshorter/issues"
+  },
+  "homepage": "https://github.com/ORRA10/linkshorter#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
